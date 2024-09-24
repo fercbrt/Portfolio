@@ -89,8 +89,18 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "repo": "https://github.com/fercbrt/portfolio.git",
+            "baseHref": "/portfolio/"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "d6ef473a-3fd3-4948-925c-14b0998f6943"
   }
 }
