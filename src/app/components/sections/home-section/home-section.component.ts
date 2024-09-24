@@ -9,6 +9,7 @@ import { Component, Signal } from '@angular/core';
 export class HomeSectionComponent {
 
   public email: string = 'fercbrt@gmail.com';
+  public emailStatus: string = '';
 
   showCV(): void {
     window.open('documents/cv.pdf', '_blank');
@@ -16,6 +17,15 @@ export class HomeSectionComponent {
 
   copyEmail(): void {
     navigator.clipboard.writeText(this.email);
+    this.emailStatus = 'Copied!';
+  }
+
+  onMouseEnterEmail(): void {
+    this.emailStatus = 'Copy email';
+  }
+
+  onMouseLeaveEmail(): void {
+    this.emailStatus = '';
   }
 
 }

@@ -7,8 +7,13 @@
     <div class="contact-content">
       <span>Contact:</span>
       <button (click)="showCV()">Show CV</button>
-      <button (click)="copyEmail()" class="email-button">
+      <button (click)="copyEmail()" (mouseenter)="onMouseEnterEmail()" (mouseleave)="onMouseLeaveEmail()" class="email-button">
         {{ email }}
+        @if (emailStatus != '') {
+          <span  class="email-tooltip">
+            {{ emailStatus }}
+          </span>
+        }
       </button>
     </div>
   </div>
