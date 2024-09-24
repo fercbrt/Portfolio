@@ -1,0 +1,110 @@
+[
+  {
+    "imageUrl": "images/angular.png",
+    "title": "Angular de cero a experto",
+    "provider": "Udemy | Fernando Herrera",
+    "date": "February, 2024"
+  },
+  {
+    "imageUrl": "images/mongodb.svg",
+    "title": "Introduction to MongoDB",
+    "provider": "MongoDB University",
+    "date": "June, 2024"
+  },
+  {
+    "imageUrl": "images/mongodb.svg",
+    "title": "MongoDB Data Modeling Path",
+    "provider": "MongoDB University",
+    "date": "July, 2024"
+  },
+  {
+    "imageUrl": "images/mongodb.svg",
+    "title": "MongoDB Java Developer Path",
+    "provider": "MongoDB University",
+    "date": "June, 2024"
+  },
+  {
+    "imageUrl": "images/linkedin.svg",
+    "title": "Fundamentos profesionales en ciberseguridad",
+    "provider": "LinkedIn | Microsoft",
+    "date": "August, 2024"
+  },
+  {
+    "imageUrl": "images/linkedin.svg",
+    "title": "Desarrolla tus habilidades con IA generativa",
+    "provider": "LinkedIn | Microsoft",
+    "date": "August, 2024"
+  },
+  {
+    "imageUrl": "images/linkedin.svg",
+    "title": "Fundamentos profesionales en tecnología sostenible",
+    "provider": "LinkedIn | Microsoft",
+    "date": "August, 2024"
+  },
+  {
+    "imageUrl": "images/linkedin.svg",
+    "title": "Fundamentos profesionales en IA generativa",
+    "provider": "LinkedIn | Microsoft",
+    "date": "August, 2024"
+  },
+  {
+    "imageUrl": "images/linkedin.svg",
+    "title": "Fundamentos profesionales en análisis de datos",
+    "provider": "LinkedIn | Microsoft",
+    "date": "August, 2024"
+  },
+  {
+    "imageUrl": "images/spring.svg",
+    "title": "Spring Framework 6 & Spring Boot 3",
+    "provider": "Udemy | Andrés Guzmán",
+    "date": "August, 2024"
+  },
+  {
+    "imageUrl": "images/google_cybersecurity.png",
+    "title": "Fundamentos de la ciberseguridad",
+    "provider": "Coursera | Google",
+    "date": "September, 2024"
+  },
+  {
+    "imageUrl": "images/google_cybersecurity.png",
+    "title": "Gestiona los riesgos de seguridad",
+    "provider": "Coursera | Google",
+    "date": "September, 2024"
+  },
+  {
+    "imageUrl": "images/google_cybersecurity.png",
+    "title": "Redes y seguridad de redes",
+    "provider": "Coursera | Google",
+    "date": "September, 2024"
+  },
+  {
+    "imageUrl": "images/google_cybersecurity.png",
+    "title": "Linux y SQL",
+    "provider": "Coursera | Google",
+    "date": "September, 2024"
+  },
+  {
+    "imageUrl": "images/google_cybersecurity.png",
+    "title": "Activos, amenazas y vulnerabilidades",
+    "provider": "Coursera | Google",
+    "date": "September, 2024"
+  },
+  {
+    "imageUrl": "images/google_cybersecurity.png",
+    "title": "Detección y respuesta",
+    "provider": "Coursera | Google",
+    "date": "September, 2024"
+  },
+  {
+    "imageUrl": "images/google_cybersecurity.png",
+    "title": "Automatiza tareas de ciberseguridad con Python",
+    "provider": "Coursera | Google",
+    "date": "September, 2024"
+  },
+  {
+    "imageUrl": "images/google_cybersecurity.png",
+    "title": "Preparate para los trabajos de ciberseguridad",
+    "provider": "Coursera | Google",
+    "date": "September, 2024"
+  }
+]

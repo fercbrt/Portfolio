@@ -1,0 +1,54 @@
+<div class="section">
+  <h4>Education</h4>
+  <h5>University</h5>
+  <div class="flex-container">
+    @for (university of universitiesList; track $index) {
+      <div class="education-content">
+        <img src="{{ university.imageUrl }}" alt="" class="education-image">
+        <div class="education-text">
+          <span class="education-title">{{ university.title }}</span>
+          <div>
+            <span class="education-argument">{{ university.institution }}</span>
+          </div>
+          <div>
+            <span class="education-date">{{ university.startDate }} -  {{ university.endDate }}</span>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+  <h5>Certifications</h5>
+  <div class="flex-container">
+    @for (certification of certificationsList; track $index) {
+      <div class="education-content">
+        <img src="{{ certification.imageUrl }}" alt="" class="education-image">
+        <div class="education-text">
+          <span class="education-title">{{ certification.title }}</span>
+          <div>
+            <span class="education-argument">{{ certification.provider }}</span>
+          </div>
+          <div>
+            <span class="education-date">{{ certification.date }}</span>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+  <h5>Courses</h5>
+  <div class="flex-container">
+    @for (course of coursesList; track $index) {
+      <div class="education-content">
+        <img src="{{ course.imageUrl }}" alt="" class="education-image">
+        <div class="education-text">
+          <span class="education-title">{{ course.title }}</span>
+          <div>
+            <span class="education-argument">{{ course.provider }}</span>
+          </div>
+          <div>
+            <span class="education-date">{{ course.date }}</span>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>

@@ -8,17 +8,16 @@ body {
 .section {
     min-height: 82.5vh;
     padding: 1.3rem 1.6rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    column-gap: 1.5rem;
-    row-gap: 1.5rem;
 }
 
-/*
- Button with animation in hover
-*/
+.home-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+}
 
 button {
     padding: 0.32rem 0.6rem;
@@ -62,6 +61,18 @@ h3 {
   margin: 0.1rem 0;
 }
 
+h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.1rem 0;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0.1rem 0;
+}
+
 .contact-content {
   display: flex;
   flex-wrap: wrap;
@@ -90,9 +101,90 @@ h3 {
   color: #fff;
   position:sticky;
   top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #f4f4f4;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 0.4s;
+}
+
+.nav-links a:hover {
+  color: #f4f4f4;
+  border-bottom: white 0.2rem solid;
+  border-radius: 5%;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  padding: 0.4rem;
+  flex-wrap: nowrap;
+  overflow: auto;
+  align-items: center;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.education-content {
+  display: inline-flex;
+  align-items: center;
+  row-gap: 1.5rem;
+  column-gap: 1.5rem;
+  padding: 1.3rem;
+  background-color: white;
+  border-radius: 2.5%;
+  width: fit-content;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+.education-image {
+  max-height: 86px;
+  border-radius: 2.5%;
+}
+
+.education-text {
+  display: flex;
+  flex-wrap: wrap;
+  width: max-content;
+  flex-direction: column;
+}
+
+.education-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0.1rem 0;
+}
+
+.education-argument {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0.1rem 0;
+}
+
+.education-date {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.1rem 0;
 }

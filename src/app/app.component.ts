@@ -1,15 +1,17 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HomeSectionComponent } from './components/sections';
+import { HomeSectionComponent, EducationSectionComponent, ProjectsSectionComponent, SkillsSectionComponent } from './components/sections';
 import { NavBarComponent } from './components/items';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet,
-            HomeSectionComponent,
-            NavBarComponent
-          ],
+    HomeSectionComponent,
+    EducationSectionComponent,
+    ProjectsSectionComponent,
+    SkillsSectionComponent,
+    NavBarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
