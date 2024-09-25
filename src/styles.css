@@ -162,6 +162,10 @@ a {
   background-color: white;
 }
 
+.items-container img {
+  width: 40%;
+}
+
 .item-paragraph {
   font-size: 1.2rem;
   font-weight: 500;
