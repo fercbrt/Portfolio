@@ -148,9 +148,10 @@ a {
   margin-bottom: 0.8rem;
 }
 
-.skills-container {
+.items-container {
   width: 33%;
   min-width: 250px;
+  align-self: stretch;
   min-height: fit-content;
   padding: 1.5rem;
   align-items: center;
@@ -161,13 +162,13 @@ a {
   background-color: white;
 }
 
-.skill-paragraph {
+.item-paragraph {
   font-size: 1.2rem;
   font-weight: 500;
   margin: 1rem 0;
 }
 
-.skill-images-container img {
+.item-images-container img {
   margin: 0 0.6rem;
   width: 25%;
 }
@@ -213,6 +214,28 @@ a {
   margin: 0.1rem 0;
 }
 
+.caution-image {
+  width: 350px;
+  height: 30px;
+  position: fixed;
+  bottom: 0px;
+  left: -70px;
+  rotate: 45deg;
+}
+
+.caution-advertisement {
+  position: fixed;
+  bottom: 45px;
+  left: 10px;
+  background-color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: black;
+  padding: 0.2rem 0.4rem;
+  border-radius: 5%;
+  rotate: 45deg;
+}
+
 /*
   Less than 768px
 */
@@ -221,7 +244,7 @@ a {
   .nav-links {
     display: none;
   }
-  .skill-paragraph {
+  .item-paragraph {
     font-size: 1rem;
   }
 }
